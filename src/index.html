@@ -1,15 +1,120 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+<head>
+  <title>CifrApp</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Compiled and minified CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="row">
+      <div class="col-xl-12 col-lg-11 col-md-9 col-sm-6 col-12">
+        <h2 id="title" strong>CifrApp</h2>
+        <p id="subtitle">La App que cifra</p>
+      </div>
     </div>
+
+    <nav class="navbar"><!--navbar-expand-lg navbar-light bg-light"-->
+      <form class="form-inline my-2 my-lg-0">
+        <button class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#modal1">Funcionamiento</button>
+
+        <button class="btn btn-outline-success my-2 my-lg-0" type="button" data-toggle="modal" data-target="#modal2">Instrucciones de uso</button>
+      </form>
+    </nav>
+      <!--<nav class="navbar">
+        <ul class="elementos_navbar">
+          <li><a href="#modal1">Quienes somos</a></li>
+          <li><a href="#modal2">Instrucciones de uso</a></li>
+        </ul>
+      </nav>-->
+
+      <!-- Modal1 -->
+      <div class="modal fade" id="modal1" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal-who">Funcionamiento</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Esta App utiliza un método de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto. Puedes encontrar más información <a href="https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar">AQUÍ</a>.</p>
+              <p>Podrás crear fácilmente contraseñas y mensajes cifrados.</p>
+             <p>Para comenzar, primero lee las instrucciones de uso.</p>
+
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal2 -->
+      <div class="modal fade" id="modal2" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal-instructions">Instrucciones de uso</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Para crear contraseñas y/o un texto cifrado primero debes elegir un número secreto (recordar para después descifrar), luego escribir lo que quieres cifrar/descifrar, y presionar el botón "cifrar" o "descifrar" según corresponda.</p>
+              <li>Puedes utilizar letras, números y símbolos.</li>
+              <li>Utiliza sólo letras del alfabeto simple (sin ñ).</li>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <section class="mod1">
+      <section class="col-xl-12 col-lg-11 col-md-9 col-sm-6 col-12">
+      <!-- Select offset -->
+      <section class="Complejidad">
+        <p id="select">1- Seleccionar N° secreto:</p>
+        <input type="number" id="offset" rows="1" cols="122" min="1">
+      </section>
+      <!-- TextBox1 -->
+      <section class="crea">
+        <p>2- Para comenzar, escribe AQUÍ:</p>
+        <input type = "text" id = "input-str" value = "" placeholder = "Escribe lo que quieres cifrar/descifrar">
+      </section>
+      <!-- Button1 -->
+      <section>
+        <button id="cipher1"> <strong>CIFRAR</strong> </button>
+        <!-- Button2 -->
+        <button type id="cipher2"> <strong>DECIFRAR</strong> </button>
+      </section>
+      <!-- TextBox2 -->
+      <section>
+        <p class="creado">3- Y podrás ver la palabra cifrada/descifrada AQUÍ:</p>
+        <textarea disabled id = "frase-cifrada"> </textarea>
+      </section> 
+    </section>     
+</section>
+    <footer>
+      <div style="width: 100%">
+        © 2019
+        <a>Daniela Estrada A.</a>
+      </div>
+    </footer>
+    <!-- Enlaces de scripts-->
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </body>
-</html>
+  </html>

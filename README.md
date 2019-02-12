@@ -30,9 +30,7 @@ Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 Podrás crear claves de acceso para tus documentos importantes, y también por qué no, codificar los nombres de tus clientes y lugares de encuentro de los cuales sólo tú tendrás conocimiento esa información.
 
-## Esta página web es posible visualizarla en el siguiente link:
-
-(url)
+## Esta página web es posible visualizarla en el siguiente [link](https://danielaestrada.github.io/SCL008-Cipher/src/index.html)
 
 ## Historias de usuarios
 
@@ -135,9 +133,7 @@ El código creado es una fórmula que permite cifrar y descifrar. Programado con
 
 ## Planificación
 
-(foto)
-
-Y también es posible ver la planificación del proyecto en el siguiente [Trello:](https://trello.com/b/SHwFc1NN)
+Es posible ver la planificación del proyecto en el siguiente [Trello:](https://trello.com/b/SHwFc1NN)
 
 
 ## Resultado final

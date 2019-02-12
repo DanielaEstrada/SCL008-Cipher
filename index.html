@@ -13,7 +13,7 @@
   <header>
     <div class="row">
       <div class="col-12">
-        <h2 id="title" strong>CifrApp</h2>
+        <h2 id="title">CifrApp</h2>
         <p id="subtitle">La App que cifra</p>
       </div>
     </div>
@@ -68,8 +68,10 @@
             </div>
             <div class="modal-body">
               <p>Para crear contraseñas y/o un texto cifrado primero debes elegir un número secreto (recordar para después descifrar), luego escribir lo que quieres cifrar/descifrar, y presionar el botón "cifrar" o "descifrar" según corresponda.</p>
+              <ul class="subtitle-modal2">
               <li>Puedes utilizar letras, números y símbolos.</li>
               <li>Utiliza sólo letras del alfabeto simple (sin ñ).</li>
+            </ul>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -84,7 +86,7 @@
         <!-- Select offset -->
         <section class="Complejidad">
           <p id="select">1- Seleccionar N° secreto:</p>
-          <input type="number" id="offset" rows="1" cols="122" min="1">
+          <input type="number" id="offset" min="1">
         </section>
         <!-- TextBox1 -->
         <section class="crea">
@@ -93,14 +95,14 @@
         </section>
         <!-- Button1 -->
         <section>
-          <button id="cipher1"> <strong>CIFRAR</strong> </button>
+          <button id="cipher1">CIFRAR</button>
           <!-- Button2 -->
-          <button type id="cipher2"> <strong>DECIFRAR</strong> </button>
+          <button type id="cipher2">DECIFRAR</button>
         </section>
         <!-- TextBox2 -->
         <section>
           <p class="creado">3- Y podrás ver la palabra cifrada/descifrada AQUÍ:</p>
-          <textarea disabled id = "frase-cifrada"> </textarea>
+          <textarea disabled id = "frase-cifrada"></textarea>
         </section> 
       </section>     
     </section>

@@ -69,9 +69,9 @@
             <div class="modal-body">
               <p>Para crear contraseñas y/o un texto cifrado primero debes elegir un número secreto mayor que cero (recordar para después descifrar), luego escribir lo que quieres cifrar/descifrar, y presionar el botón "cifrar" o "descifrar" según corresponda.</p>
               <ul class="subtitle-modal2">
-              <li>Puedes utilizar letras, números y símbolos.</li>
-              <li>Utiliza sólo letras del alfabeto simple (sin ñ).</li>
-            </ul>
+                <li>Puedes utilizar letras, números y símbolos.</li>
+                <li>Utiliza sólo letras del alfabeto simple (sin ñ).</li>
+              </ul>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -81,31 +81,30 @@
       </div>
     </header>
     
-    <section class="mod1">
-      <section class="col-xl-12 col-lg-10 col-md-8 col-sm-4 col-12">
-        <!-- Select offset -->
-        <section class="Complejidad">
-          <p id="select">1- Seleccionar N° secreto:</p>
-          <input type="number" id="offset" min="1">
-        </section>
-        <!-- TextBox1 -->
-        <section class="crea">
-          <p>2- Para comenzar, escribe AQUÍ:</p>
-          <input type = "text" id = "input-str" value = "" placeholder = "Escribe lo que quieres cifrar/descifrar">
-        </section>
-        <!-- Button1 -->
-        <section>
-          <button id="cipher1">CIFRAR</button>
-          <!-- Button2 -->
-          <button type id="cipher2">DECIFRAR</button>
-        </section>
-        <!-- TextBox2 -->
-        <section>
-          <p class="creado">3- Y podrás ver la palabra cifrada/descifrada AQUÍ:</p>
-          <textarea disabled id = "frase-cifrada"></textarea>
-        </section> 
-      </section>     
-    </section>
+    <section class="col-xl-12 col-lg-10 col-md-8 col-sm-4 col-12">
+      <!-- Select offset -->
+      <section class="Complejidad">
+        <p id="select">1- Seleccionar N° secreto:</p>
+        <input type="number" id="offset" min="1">
+      </section>
+      <!-- TextBox1 -->
+      <section class="crea">
+        <p>2- Para comenzar, escribe AQUÍ:</p>
+        <input type = "text" id = "input-str" value = "" placeholder = "Escribe lo que quieres cifrar/descifrar">
+      </section>
+      <!-- Button1 -->
+      <section>
+        <button id="cipher1">CIFRAR</button>
+        <!-- Button2 -->
+        <button id="cipher2">DECIFRAR</button>
+      </section>
+      <!-- TextBox2 -->
+      <section>
+        <p class="creado">3- Y podrás ver la palabra cifrada/descifrada AQUÍ:</p>
+        <textarea disabled id = "frase-cifrada"></textarea>
+      </section> 
+    </section>     
+
     <footer>
       <div style="width: 100%">
         © 2019

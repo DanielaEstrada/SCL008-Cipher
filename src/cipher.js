@@ -35,26 +35,36 @@ window.cipher = {
                   if ((charAscii >= 32) && (charAscii <= 47)) {
                     ascii = ((charAscii - 32 + offset) % 16 + 32);
                     code1 = String.fromCharCode(ascii);}
+                    
+                    if ((charAscii >= 58) && (charAscii <= 64)) {
+                      ascii = ((charAscii - 58 + offset) % 7 + 58);
+                      code1 = String.fromCharCode(ascii);}
+
+                      if ((charAscii >= 91) && (charAscii <= 96)) {
+                        ascii = ((charAscii - 91 + offset) % 7 + 91);
+                        code1 = String.fromCharCode(ascii);}
+
+                        if ((charAscii >= 123) && (charAscii <= 126)) {
+                          ascii = ((charAscii - 123 + offset) % 4 + 123);
+                          code1 = String.fromCharCode(ascii);}
 
 
+                          result += code1;
+                        }
+                        return result;
+                      },
 
-                    result += code1;
-                  }
+                      decode: (str, offset) => {
 
-                  return result;
-                },
+                        let caesarShift2
+                        let ascii2;
+                        let result2 = "";
+                        let code2;
 
-                decode: (str, offset) => {
+                        if (offset < 0)
+                          return caesarShift2(str, offset + 26);
 
-                  let caesarShift2
-                  let ascii2;
-                  let result2 = "";
-                  let code2;
-
-                  if (offset < 0)
-                    return caesarShift2(str, offset + 26);
-
-                  for (let i = 0; i < str.length; i ++) {
+                        for (let i = 0; i < str.length; i ++) {
 
             // Aplica fórmula ascii
             let charAscii2 = str.charCodeAt(i);
@@ -80,8 +90,21 @@ if ((charAscii2 >= 32) && (charAscii2 <= 47)) {
   ascii2 = ((charAscii2 - 47 - offset) % 16 + 47);
   code2 = String.fromCharCode(ascii2);}
 
-  result2 += code2;
-}
-return result2;
-}
-};
+  if ((charAscii2 >= 58) && (charAscii2 <= 64)) {
+    ascii2 = ((charAscii2 - 64 - offset) % 7 + 64);
+    code2 = String.fromCharCode(ascii2);}
+
+    if ((charAscii2 >= 91) && (charAscii2 <= 96)) {
+      ascii2 = ((charAscii2 - 96 - offset) % 7 + 96);
+      code2 = String.fromCharCode(ascii2);}
+
+      if ((charAscii2 >= 123) && (charAscii2 <= 126)) {
+        ascii2 = ((charAscii2 - 126 - offset) % 4 + 126);
+        code2 = String.fromCharCode(ascii2);}
+
+
+        result2 += code2;
+      }
+      return result2;
+    }
+  };

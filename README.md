@@ -20,7 +20,7 @@
 Cifrar significa codificar.
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
-##Resúmen del proyecto
+## Resúmen del proyecto
 Esta App utiliza el método de [cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar), que es una de las técnicas más simples para cifrar un mensaje. Fue uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
 Por ejemplo, si usamos un desplazamiento (offset) de 3 posiciones:
@@ -48,7 +48,7 @@ Criterios de aceptación:
 -Elegir un parámetro secreto (indicador que sólo yo conozco). Número para que sea más fácil de recordar.
 -Mostrar la palabra codificada (resultado).
 
-###Usuario 2:
+### Usuario 2:
 Como Empresario.
 Quiero crear diferentes claves de acceso para mis diferentes cuentas bancarias.
 Para impedir el acceso a mis cuentas bancarias.
@@ -60,7 +60,7 @@ Criterios de aceptación:
 -Elegir un parámetro secreto (indicador que sólo yo conozco). Número para que sea más fácil de recordar.
 -Mostrar el número codificado (resultado).
 
-###Usuario 3:
+### Usuario 3:
 Como cualquier usuario.
 Quiero crear un texto secreto.
 Para que otros no conozcan el contenido de lo que escribo.

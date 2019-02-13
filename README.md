@@ -48,11 +48,11 @@ Quiero tener diferentes claves para cada red social que utilizo.
 Para impedir que otros accedan a mi contenido personal y privado.
 
 Criterios de aceptación:
--Visualización amigable y con imagen atractiva.
--De acceso rápido y fácil.
--Ingresar una palabra y poder codificarla.
--Elegir un parámetro secreto (indicador que sólo el usuario conoce). Número para que sea más fácil de recordar.
--Mostrar la palabra codificada (resultado).
+ - Visualización amigable y con imagen atractiva.
+ - De acceso rápido y fácil.
+ - Ingresar una palabra y poder codificarla.
+ - Elegir un parámetro secreto (indicador que sólo el usuario conoce). Número para que sea más fácil de recordar.
+ - Mostrar la palabra codificada (resultado).
 
 ### Usuario 2:
 Como Empresario.
@@ -60,11 +60,11 @@ Quiero crear diferentes claves de acceso para mis diferentes cuentas bancarias.
 Para impedir el acceso a mis cuentas bancarias.
 
 Criterios de aceptación:
--Visualización simple.
--De acceso rápido y fácil.
--Ingresar un número y poder codificarlo.
--Elegir un parámetro secreto (indicador que sólo el usuario conoce). Número para que sea más fácil de recordar.
--Mostrar el número codificado (resultado).
+ - Visualización simple.
+ - De acceso rápido y fácil.
+ - Ingresar un número y poder codificarlo.
+ - Elegir un parámetro secreto (indicador que sólo el usuario conoce). Número para que sea más fácil de recordar.
+ - Mostrar el número codificado (resultado).
 
 ### Usuario 3:
 Como cualquier usuario.
@@ -72,11 +72,11 @@ Quiero crear un texto secreto.
 Para que otros no conozcan el contenido de lo que escribo.
 
 Criterios de aceptación:
--Visualización simple.
--De acceso rápido y fácil.
--Ingresar un texto y poder codificarlo.
--Elegir un parámetro secreto (indicador que sólo el usuario conoce). Número para que sea más fácil de recordar.
--Mostrar el texto codificado (resultado).
+ - Visualización simple.
+ - De acceso rápido y fácil.
+ - Ingresar un texto y poder codificarlo.
+ - Elegir un parámetro secreto (indicador que sólo el usuario conoce). Número para que sea más fácil de recordar.
+ - Mostrar el texto codificado (resultado).
 
 
 ## Consideraciones para el diseño de la interfaz del usuario

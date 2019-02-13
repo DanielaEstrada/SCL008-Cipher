@@ -91,7 +91,7 @@ Esta página se compone de un único módulo:
  - Botón 1 (cifrar) y botón 2 (descifrar).
  - Caja de texto 2: Muestra el resultado cifrado o sketchrdno.
 
- !(sketch.png)
+ ![](sketch.png)
 
 Una vez creado el diseño se realiza el primer testeo.
 

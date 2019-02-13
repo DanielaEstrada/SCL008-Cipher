@@ -89,11 +89,15 @@ Esta página se compone de un único módulo:
  - Seleccionador del paŕametro secreto (offset).
  - Caja de texto 1: Para ingresar lo que quiero cifrar.
  - Botón 1 (cifrar) y botón 2 (descifrar).
- - Caja de texto 2: Muestra el resultado cifrado o descifrado.
+ - Caja de texto 2: Muestra el resultado cifrado o sketchrdno.
+
+ ![](sketch.png)
 
 Una vez creado el diseño se realiza el primer testeo.
 
 #### Prototipo de baja fidelidad
+
+![](flujo.png)
 
 
 #### Testeos de usabilidad
@@ -133,10 +137,12 @@ El código creado es una fórmula que permite cifrar y descifrar. Programado con
 
 ## Planificación
 
-Es posible ver la planificación del proyecto en el siguiente [Trello:](https://trello.com/b/SHwFc1NN)
+Es posible ver la planificación del proyecto en el siguiente Trello:https://trello.com/b/SHwFc1NN
 
 
 ## Resultado final
+
+![](final.png)
 
 
 

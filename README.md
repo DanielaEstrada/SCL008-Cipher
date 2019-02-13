@@ -17,7 +17,8 @@
 
 ## Preámbulo
 
-Cifrar significa codificar.
+### Cifrar significa codificar.
+
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
 ## Resúmen del proyecto
@@ -40,10 +41,10 @@ Quiero tener diferentes claves para cada red social que utilizo.
 Para impedir que otros accedan a mi contenido personal y privado.
 
 Criterios de aceptación:
--Visualización amigable y juvenil.
+-Visualización amigable y con imagen atractiva.
 -De acceso rápido y fácil.
 -Ingresar una palabra y poder codificarla.
--Elegir un parámetro secreto (indicador que sólo yo conozco). Número para que sea más fácil de recordar.
+-Elegir un parámetro secreto (indicador que sólo el usuario conoce). Número para que sea más fácil de recordar.
 -Mostrar la palabra codificada (resultado).
 
 ### Usuario 2:
@@ -55,7 +56,7 @@ Criterios de aceptación:
 -Visualización simple.
 -De acceso rápido y fácil.
 -Ingresar un número y poder codificarlo.
--Elegir un parámetro secreto (indicador que sólo yo conozco). Número para que sea más fácil de recordar.
+-Elegir un parámetro secreto (indicador que sólo el usuario conoce). Número para que sea más fácil de recordar.
 -Mostrar el número codificado (resultado).
 
 ### Usuario 3:
@@ -67,7 +68,7 @@ Criterios de aceptación:
 -Visualización simple.
 -De acceso rápido y fácil.
 -Ingresar un texto y poder codificarlo.
--Elegir un parámetro secreto (indicador que sólo yo conozco). Número para que sea más fácil de recordar.
+-Elegir un parámetro secreto (indicador que sólo el usuario conoce). Número para que sea más fácil de recordar.
 -Mostrar el texto codificado (resultado).
 
 
@@ -91,13 +92,13 @@ Esta página se compone de un único módulo:
  - Botón 1 (cifrar) y botón 2 (descifrar).
  - Caja de texto 2: Muestra el resultado cifrado o sketchrdno.
 
- ![](sketch.png)
+ ![](flujo.png)
 
 Una vez creado el diseño se realiza el primer testeo.
 
 #### Prototipo de baja fidelidad
 
-![](flujo.png)
+ ![](sketch.png)
 
 
 #### Testeos de usabilidad
@@ -121,8 +122,6 @@ Insertar un mensaje (texto) que queremos cifrar.
 Ver el resultado del mensaje cifrado.
 Insertar un mensaje (texto) a descifrar.
 Ver el resultado del mensaje descifrado.
-Se puede visualizar sin problemas desde distintos tamaños de pantallas: móviles,
-tablets y desktops.
 
 
 ## Consideraciones técnicas
@@ -137,7 +136,7 @@ El código creado es una fórmula que permite cifrar y descifrar. Programado con
 
 ## Planificación
 
-Es posible ver la planificación del proyecto en el siguiente Trello:https://trello.com/b/SHwFc1NN
+Es posible ver la planificación del proyecto en el siguiente Trello: https://trello.com/b/SHwFc1NN
 
 
 ## Resultado final

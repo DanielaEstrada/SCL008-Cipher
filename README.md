@@ -5,8 +5,8 @@
 * [Preámbulo](#preámbulo)
 * [Resúmen del proyecto](#resúmen-del-proyecto)
 * [Url Página web](#link)
-* [Historias de usuarios](#historias-de-usuarios)
 * [Modo de uso](#modo-de-uso)
+* [Historias de usuarios](#historias-de-usuarios)
 * [Diseño de la Interfaz del usuario](#Consideraciones-para-el-diseño-de-la-interfaz-del-usuario)
 * [Implementación de la Interfaz del usuario](#Implementación-de-la-Interfaz-del-usuario)
 * [Consideraciones técnicas](#consideraciones-técnicas)
@@ -32,6 +32,13 @@ Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 Podrás crear claves de acceso para tus documentos importantes, y también por qué no, codificar los nombres de tus clientes y lugares de encuentro de los cuales sólo tú tendrás conocimiento esa información.
 
 ## Esta página web es posible visualizarla en el siguiente link: https://danielaestrada.github.io/SCL008-Cipher/src/index.html
+
+## Modo de uso
+
+Primero es recomendable leer las instrucciones de uso. 
+
+Para comenzar, primero es necesario seleccionar un N° secreto (parámetro desde el cual se realizará el cálculo de cifrado/descifrado). Luego, escribir en la caja de texto. Y para finalizar, es necesario presionar el botón “cifrar” o “descifrar” para poder ver el resultado en la segunda caja de texto.
+
 
 ## Historias de usuarios
 
@@ -70,13 +77,6 @@ Criterios de aceptación:
 -Ingresar un texto y poder codificarlo.
 -Elegir un parámetro secreto (indicador que sólo el usuario conoce). Número para que sea más fácil de recordar.
 -Mostrar el texto codificado (resultado).
-
-
-## Modo de uso
-
-Primero es recomendable leer las instrucciones de uso. 
-
-Para comenzar, primero es necesario seleccionar un N° secreto (parámetro desde el cual se realizará el cálculo de cifrado/descifrado). Luego, escribir en la caja de texto. Y para finalizar, es necesario presionar el botón “cifrar” o “descifrar” para poder ver el resultado en la segunda caja de texto.
 
 
 ## Consideraciones para el diseño de la interfaz del usuario
